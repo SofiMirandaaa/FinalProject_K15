@@ -50,15 +50,15 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.NavajoWhite;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(163, 99);
+            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label1.Location = new System.Drawing.Point(89, 103);
             this.label1.Name = "label1";
             this.label1.Padding = new System.Windows.Forms.Padding(1);
-            this.label1.Size = new System.Drawing.Size(163, 36);
+            this.label1.Size = new System.Drawing.Size(320, 53);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Data Master";
+            this.label1.Text = "DATA MASTER";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button2
@@ -78,8 +78,9 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(160, 41);
             this.button3.TabIndex = 3;
-            this.button3.Text = "Data Suplier";
+            this.button3.Text = "Data Supplier";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -103,7 +104,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Data Master";
             this.ResumeLayout(false);
             this.PerformLayout();
 
