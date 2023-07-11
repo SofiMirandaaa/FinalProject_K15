@@ -2,11 +2,18 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
+using System.IO;
+using System.IO.Pipes;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Net.WebRequestMethods;
+using System.Windows.Input;
+using System.Collections;
 
 namespace FinalProject_K15
 {
@@ -55,6 +62,18 @@ namespace FinalProject_K15
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnCreate_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 Form2 = new Form2();
+            Form2.Show();
+            this.Hide();
         }
     }
 }

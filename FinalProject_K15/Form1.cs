@@ -43,7 +43,7 @@ namespace FinalProject_K15
             string username = textBox1.Text;
             string password = textBox2.Text;
 
-            if (username == "" && password == "123")
+            if (username == "Admin" && password == "123")
             {
                 MessageBox.Show("Login berhasil!");
                 Form2 nextForm = new Form2();

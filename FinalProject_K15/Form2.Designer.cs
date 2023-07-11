@@ -56,7 +56,7 @@
             this.label1.Location = new System.Drawing.Point(89, 103);
             this.label1.Name = "label1";
             this.label1.Padding = new System.Windows.Forms.Padding(1);
-            this.label1.Size = new System.Drawing.Size(320, 53);
+            this.label1.Size = new System.Drawing.Size(315, 51);
             this.label1.TabIndex = 1;
             this.label1.Text = "DATA MASTER";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -70,6 +70,7 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "Data Pelanggan";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -91,6 +92,7 @@
             this.button4.TabIndex = 4;
             this.button4.Text = "Data Toko";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Form2
             // 

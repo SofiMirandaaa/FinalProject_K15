@@ -24,12 +24,26 @@ namespace FinalProject_K15
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Form4 nextForm = new Form4();
+            nextForm.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
+            Form5 nextForm = new Form5();
+            nextForm.Show();
+        }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form3 nextForm = new Form3();
+            nextForm.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form6 nextForm = new Form6();
+            nextForm.Show();
         }
     }
 }
