@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FinalProject_K15
 {
-    public partial class Form7 : Form
+    public partial class Form8 : Form
     {
-        public Form7()
+        public Form8()
         {
             InitializeComponent();
         }
@@ -24,12 +24,14 @@ namespace FinalProject_K15
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            Form7 nextForm = new Form7();
+            nextForm.Show();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form9 nextForm = new Form9();
+            Form2 nextForm = new Form2();
             nextForm.Show();
             this.Hide();
         }
@@ -42,13 +44,6 @@ namespace FinalProject_K15
         private void button1_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            Form2 Form2 = new Form2();
-            Form2.Show();
-            this.Hide();
         }
     }
 }
