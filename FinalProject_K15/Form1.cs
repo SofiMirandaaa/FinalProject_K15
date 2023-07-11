@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace FinalProject_K15
 {
@@ -38,6 +39,25 @@ namespace FinalProject_K15
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {
+            string username = textBox1.Text;
+            string password = textBox2.Text;
+
+            if (username == "" && password == "123")
+            {
+                MessageBox.Show("Login berhasil!");
+                Form2 nextForm = new Form2();
+                nextForm.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Username atau password salah!");
+
+            }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
