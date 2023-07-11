@@ -41,9 +41,9 @@ namespace FinalProject_K15
 
             command = new SqlCommand(query, connection);
             command.Parameters.AddWithValue("@Id_Pelanggan", textBox1.Text);
-            command.Parameters.AddWithValue("@Nm_Pelanggan", textBox2.Text);
+            command.Parameters.AddWithValue("@Nm_Pelanggan", textBox4.Text);
             command.Parameters.AddWithValue("@nohp_Pelanggan", textBox3.Text);
-            command.Parameters.AddWithValue("@almt_Pelanggan", textBox4.Text);
+            command.Parameters.AddWithValue("@almt_Pelanggan", textBox2.Text);
 
             connection.Open();
             command.ExecuteNonQuery();

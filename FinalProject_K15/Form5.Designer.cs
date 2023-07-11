@@ -151,6 +151,7 @@
             this.btndelete.TabIndex = 37;
             this.btndelete.Text = "Delete";
             this.btndelete.UseVisualStyleBackColor = true;
+            this.btndelete.Click += new System.EventHandler(this.btndelete_Click);
             // 
             // btnUpdate
             // 
@@ -161,6 +162,7 @@
             this.btnUpdate.TabIndex = 36;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // button2
             // 
@@ -171,6 +173,7 @@
             this.button2.TabIndex = 35;
             this.button2.Text = "Read";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // btnCreate
             // 
