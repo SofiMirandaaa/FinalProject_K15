@@ -24,7 +24,9 @@ namespace FinalProject_K15
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            Form10 nextForm = new Form10();
+            nextForm.Show();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -36,7 +38,9 @@ namespace FinalProject_K15
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            Form11 nextForm = new Form11();
+            nextForm.Show();
+            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)

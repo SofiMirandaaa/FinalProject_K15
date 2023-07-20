@@ -39,9 +39,9 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(143, 356);
+            this.button4.Location = new System.Drawing.Point(135, 353);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(207, 41);
+            this.button4.Size = new System.Drawing.Size(220, 41);
             this.button4.TabIndex = 9;
             this.button4.Text = "Data Pembayaran";
             this.button4.UseVisualStyleBackColor = true;
@@ -50,9 +50,9 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(143, 268);
+            this.button3.Location = new System.Drawing.Point(166, 265);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(207, 60);
+            this.button3.Size = new System.Drawing.Size(157, 60);
             this.button3.TabIndex = 8;
             this.button3.Text = "Data Barang Keluar/Penjualan";
             this.button3.UseVisualStyleBackColor = true;

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form10));
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -46,7 +47,11 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.finalProjectDataSet = new FinalProject_K15.FinalProjectDataSet();
+            this.finalProjectDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.finalProjectDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.finalProjectDataSetBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox5
@@ -82,7 +87,9 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.DataSource = this.finalProjectDataSetBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(492, 158);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
@@ -221,6 +228,16 @@
             this.label1.TabIndex = 57;
             this.label1.Text = "Barang Keluar (Penjualan)";
             // 
+            // finalProjectDataSet
+            // 
+            this.finalProjectDataSet.DataSetName = "FinalProjectDataSet";
+            this.finalProjectDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // finalProjectDataSetBindingSource
+            // 
+            this.finalProjectDataSetBindingSource.DataSource = this.finalProjectDataSet;
+            this.finalProjectDataSetBindingSource.Position = 0;
+            // 
             // Form10
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -247,6 +264,8 @@
             this.Name = "Form10";
             this.Text = "Form10";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.finalProjectDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.finalProjectDataSetBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -271,5 +290,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.BindingSource finalProjectDataSetBindingSource;
+        private FinalProjectDataSet finalProjectDataSet;
     }
 }
